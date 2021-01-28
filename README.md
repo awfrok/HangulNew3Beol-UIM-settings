@@ -13,7 +13,7 @@
 ## 사용법
 
 1. `# apt install uim uim-byeoru`
-2. uim두 파일을 /usr/shard/uim 으로  # cp 
+2. uim과 uim-byeoru 두 파일을 /usr/shard/uim 으로  # cp 
 3. uim 메뉴에 New3onDvorak를 선택할 수 있다.
 
 
