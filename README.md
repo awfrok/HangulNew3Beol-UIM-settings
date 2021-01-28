@@ -1,4 +1,4 @@
-# uim-byeoru script for Hangul New 3 beol type layout compatible with Dvorak
+# uim-byeoru script for Hangul new 3 beol type layout compatible with Dvorak
 
 
 
