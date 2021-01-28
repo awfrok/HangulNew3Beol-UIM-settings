@@ -10,17 +10,17 @@
 
 ![layout_HangulNew3onDvorak](https://user-images.githubusercontent.com/78065210/106119672-4fb8a400-610a-11eb-8ed2-8bb637b36941.jpg)
 
+## 사용법
+
+1. `# apt install uim uim-byeoru`
+2. uim두 파일을 /usr/shard/uim 으로  #cp 
+3. uim 메뉴에 New3onDvorak를 선택할 수 있다.
+
+
+
 ## 주의
 
 리눅스의 다른 배포판에서 확인하지 않았음.
-
-
-
-## 사용법
-
-1. `apt install uim uim-byeoru`
-2. uim두 파일을 /usr/shard/uim 으로  #cp 
-3. uim 메뉴에 New3onDvorak를 선택할 수 있다.
 
 
 
