@@ -1,3 +1,5 @@
+작성: 2021.01.28.
+
 # uim-byeoru script for Hangul new 3 beol type layout compatible with Dvorak
 
 
