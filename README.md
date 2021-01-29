@@ -14,9 +14,9 @@
 
 ## 사용법
 
-1. `# apt install uim uim-byeoru`
-2. byeoru.scm 과 byeoru-custom.scm 두 파일을 /usr/shard/uim 으로  # cp 
-3. uim 메뉴에 New3onDvorak를 선택할 수 있다.
+1. uim 과 uim-byeoru 를 설치한다.
+2. byeoru.scm 과 byeoru-custom.scm 두 파일을 /usr/shard/uim 으로 복사한다.
+3. uim 메뉴에서 New3onDvorak를 선택할 수 있다.
 
 
 
@@ -28,8 +28,8 @@
 
  ## 수정한 부분
 
-- byeoru.scm: line # 390-482
-- byeoru-custom.scm: line # 44-46
+- byeoru.scm: line # 390-482 추가
+- byeoru-custom.scm: line # 44-46 추가
 
 > 깃허브 사용법을 익히면 fork와 branch를 이용하겠음.
 
