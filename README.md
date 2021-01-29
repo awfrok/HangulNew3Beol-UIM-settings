@@ -29,7 +29,7 @@
  ## 수정한 부분
 
 - byeoru.scm: line # 390-482 추가
-- byeoru-custom.scm: line # 44-46 추가
+- byeoru-custom.scm: line # 43-46 추가
 
 > 깃허브 사용법을 익히면 fork와 branch를 이용하겠음.
 
