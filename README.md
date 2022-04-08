@@ -10,7 +10,7 @@
 
 ![KeyboardLayout_HangulNew3onDvorak_v0.2.2.jpg](https://github.com/awfrok/HangulNew3onDvorak/raw/master/KeyboardLayout_HangulNew3onDvorak_v0.2.2.jpg)
 
-## 사용법
+## 사용법 - uim, uim-byeoru
 
 1. uim 과 uim-byeoru 를 설치한다.
 2. byeoru.scm 과 byeoru-custom.scm 두 파일을 /usr/share/uim 으로 복사한다.
@@ -18,13 +18,20 @@
 
 
 
+## 사용법 - 날개셋입력기
+
+1. 설정파일을 부른 후, 빠른설정에저 신세벌식을 고른다. (자음 연타와 복모음을 설정한다.)
+
+
+
 ## 주의
 
-리눅스의 다른 배포판에서 확인하지 않았음.
+1. 리눅스의 다른 배포판에서 확인하지 않았음.
+2. 날개셋입력기 10.2에서 확인함.
 
 
 
- ## 수정한 부분
+ ## 수정한 부분 - uim, uim-byeoru
 
 - byeoru.scm: line # 390-482 추가
 - byeoru-custom.scm: line # 43-46 추가
