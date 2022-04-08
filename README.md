@@ -1,16 +1,14 @@
-작성: 2021.01.28.
-
-# uim-byeoru script for Hangul new 3 beol type layout compatible with Dvorak
+# uim-byeoru script and NGS input setting file for Hangul new 3 beol type layout compatible with Dvorak
 
 
 
  ## 설명
 
-필자가 개발해서 사용하는 한글 글쇠배열을 우분투20.04와 리눅스민트20.1에서 사용할 수 있도록 uim-byeoru 스크립트를 제작함.
+필자가 개발해서 사용하는 한글 글쇠배열을 우분투20.04와 리눅스민트20.1에서 사용할 수 있도록 uim-byeoru 스크립트를 수정함. 윈도우용 날개셋 입력기 설정파일을 추가함.
 
 > https://github.com/awfrok/HangulNew3onDvorak
 
-![layout_HangulNew3onDvorak](https://user-images.githubusercontent.com/78065210/106119672-4fb8a400-610a-11eb-8ed2-8bb637b36941.jpg)
+![KeyboardLayout_HangulNew3onDvorak_v0.2.2.jpg](https://github.com/awfrok/HangulNew3onDvorak/raw/master/KeyboardLayout_HangulNew3onDvorak_v0.2.2.jpg)
 
 ## 사용법
 
