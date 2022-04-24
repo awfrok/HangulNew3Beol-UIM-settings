@@ -391,10 +391,10 @@
  ;; Unshifted keys
  ;; choseong
  ("t" (choseong-giyeog	. (3 5)))
- ("d" (choseong-nieun	. 1) 		(jungseong-ya   	. 1))
+ ("d" (choseong-mieum	. 1) 		(jungseong-ya   	. 1))
  ("g" (choseong-digeud	. (3 5)))
- ("c" (choseong-rieul	. 1)		(jungseong-o		. 3))
- ("r" (choseong-mieum	. 1) 		(jungseong-u		. 3))
+ ("c" (choseong-nieun	. 1)		(jungseong-o		. 3))
+ ("r" (choseong-rieul	. 1) 		(jungseong-u		. 3))
  ("s" (choseong-bieub	. (3 5)))
  ("m" (choseong-sios	. (3 5)))
  ("h" (choseong-ieung	. 1) 		(jungseong-eu		. 3))
