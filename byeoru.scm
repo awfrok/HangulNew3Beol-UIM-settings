@@ -391,10 +391,10 @@
  ;; Unshifted keys
  ;; choseong
  ("t" (choseong-giyeog	. (3 5)))
- ("d" (choseong-mieum	. 1) 		(jungseong-ya   	. 1))
- ("g" (choseong-digeud	. (3 5)))
  ("c" (choseong-nieun	. 1)		(jungseong-o		. 3))
+ ("g" (choseong-digeud	. (3 5)))
  ("r" (choseong-rieul	. 1) 		(jungseong-u		. 3))
+ ("d" (choseong-mieum	. 1) 		(jungseong-ya   	. 1))
  ("s" (choseong-bieub	. (3 5)))
  ("m" (choseong-sios	. (3 5)))
  ("h" (choseong-ieung	. 1) 		(jungseong-eu		. 3))
@@ -408,15 +408,16 @@
  ("u" (jungseong-a	. (1 4))	(jongseong-giyeog	. (3 4 5)))
  ;; ("q" (jungseong-ya	. 1))
  ("p" (jungseong-eo	. (1 4))	(jongseong-mieum	. 1))
- ("j" (jungseong-yeo	. 1) 	(jongseong-tieut	. (1 4)))
- ("a" (jungseong-o	. 1) 		(jongseong-rieul	. (3 5)))
- ("q" (jungseong-yo	. 1) 		(jongseong-pieup	. (1 4)))
+ ("j" (jungseong-yo	. 1) 		(jongseong-tieut	. (1 4)))
+ ("k" (jungseong-o	. 1)		(jongseong-hieuh	. (1 4)))
+ ("q" (jungseong-yeo	. 1) 		(jongseong-pieup	. (1 4)))
  ("i" (jungseong-u	. 1) 		(jongseong-sios	    . (3 4 5)))
  ;; ("m" (jungseong-yu	. 1)) 
  ("o" (jungseong-eu	. 1) 		(jongseong-nieun	. (3 5)))
  ("e" (jungseong-i	. (1 4))	(jongseong-ieung  	. (3 5)))
+ ;; jungseong-complex
  ("y" (jungseong-ae	. (1 4))	(jongseong-bieub	. (3 4 5)))
- ("k" (jungseong-e	. (1 4))	(jongseong-hieuh	. (1 4)))
+ ("a" (jungseong-e	. (1 4)) 	(jongseong-rieul	. (3 5)))
  ("f" (jungseong-yae    . (1 4)))
  ("x" (jungseong-ye	. 1) 		(jongseong-digeud  	. 1))
  ;; jongseong, exceptionally needs shift key
