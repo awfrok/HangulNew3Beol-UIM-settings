@@ -14,7 +14,7 @@
 ## 사용법 - uim, uim-byeoru
 
 1. `uim` 과 `uim-byeoru` 를 설치한다.
-2. `byeoru.scm` 과 `byeoru-custom.scm` 두 파일을 `/usr/local/share/uim` 으로 복사한다.
+2. `byeoru.scm` 과 `byeoru-custom.scm` 두 파일을 `/usr/share/uim` 으로 복사한다.
 3. uim 메뉴에서 New3onDvorak를 선택할 수 있다.
 
 
