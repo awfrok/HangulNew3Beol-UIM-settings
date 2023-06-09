@@ -25,7 +25,7 @@ export QT_IM_MODULE=uim
 export XMODIFIERS=@im=uim
 uim-xim &
 ```
-5. uim 메뉴에서 New3onDvorak를 선택할 수 있다.
+5. X를 재시작하면, uim 메뉴에서 New3onDvorak를 선택할 수 있다.
 
 
 
