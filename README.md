@@ -1,4 +1,4 @@
-# uim-byeoru script and NGS input setting file for Hangul new 3 beol type layout compatible with Dvorak
+# uim-byeoru script and NGS input setting file for Hangul new 3 beol layout compatible with Dvorak
 
 
 
