@@ -142,7 +142,6 @@
     ((jongseong-rieul  . jongseong-sios  ) . jongseong-rieulsios  )
     ((jongseong-rieul  . jongseong-tieut ) . jongseong-rieultieut )
     ((jongseong-rieul  . jongseong-pieup ) . jongseong-rieulpieup )
-    ((jongseong-rieulbieub  . jongseong-pieup ) . jongseong-rieulpieup )
     ((jongseong-rieul  . jongseong-hieuh ) . jongseong-rieulhieuh )
     ((jongseong-bieub  . jongseong-sios  ) . jongseong-bieubsios  )))
 
@@ -152,14 +151,6 @@
     ((choseong-bieub   . choseong-bieub  ) . choseong-ssangbieub  )
     ((choseong-sios    . choseong-sios   ) . choseong-ssangsios   )
     ((choseong-jieuj   . choseong-jieuj  ) . choseong-ssangjieuj  )
-    ((jungseong-ae     . jungseong-ae    ) . jungseong-yae        )
-    ((jungseong-e      . jungseong-e     ) . jungseong-ye         )
-    ((jongseong-ieung  . jongseong-ieung ) . jongseong-hieuh 	  )
-    ((jongseong-nieun  . jongseong-nieun ) . jongseong-tieut 	  )
-    ((jongseong-bieub  . jongseong-bieub ) . jongseong-pieup 	  )
-    ((jongseong-rieul  . jongseong-rieul ) . jongseong-kieuk 	  )
-    ((jongseong-mieum  . jongseong-mieum ) . jongseong-digeud 	  )
-    ((jongseong-jieuj  . jongseong-jieuj ) . jongseong-chieuch 	  )
     ((jongseong-giyeog . jongseong-giyeog) . jongseong-ssanggiyeog)
     ((jongseong-sios   . jongseong-sios  ) . jongseong-ssangsios  )))
 
@@ -387,52 +378,49 @@
  ((1 . AB09) . ">")
  ((1 . AB10) . "?"))
 
-(byeoru-define-layout byeoru-layout-New3onDvorak
- ;; Unshifted keys
- ;; choseong
- ("t" (choseong-giyeog	. (3 5)))
- ("c" (choseong-nieun	. 1)		(jungseong-o		. 3))
- ("g" (choseong-digeud	. (3 5)))
- ("r" (choseong-rieul	. 1) 		(jungseong-u		. 3))
- ("d" (choseong-mieum	. 1) 		(jungseong-ya   	. 1))
- ("s" (choseong-bieub	. (3 5)))
- ("m" (choseong-sios	. (3 5)))
- ("h" (choseong-ieung	. 1) 		(jungseong-eu		. 3))
- ("n" (choseong-jieuj	. (3 5)))
- ("v" (choseong-chieuch . 1))
- ("w" (choseong-kieuk	. 1))
- ("l" (choseong-tieut	. 1))
- ("z" (choseong-pieup	. 1))
- ("b" (choseong-hieuh	. 1)    	(jungseong-yu		. 1))
- ;; jungseong
- ("u" (jungseong-a	. (1 4))	(jongseong-giyeog	. (3 4 5)))
- ;; ("q" (jungseong-ya	. 1))
- ("p" (jungseong-eo	. (1 4))	(jongseong-mieum	. (3 4 5)))
- ("j" (jungseong-yo	. 1) 		(jongseong-tieut	. (1 4)))
- ("k" (jungseong-o	. 1)		(jongseong-hieuh	. (1 4)))
- ("q" (jungseong-yeo	. 1) 		(jongseong-pieup	. (1 4)))
- ("i" (jungseong-u	. 1) 		(jongseong-sios	    . (3 4 5)))
- ;; ("m" (jungseong-yu	. 1)) 
- ("o" (jungseong-eu	. 1) 		(jongseong-nieun	. (3 5)))
- ("e" (jungseong-i	. (1 4))	(jongseong-ieung  	. (3 5)))
- ;; jungseong-complex
- ("y" (jungseong-ae	. (1 4))	(jongseong-bieub	. (3 4 5)))
- ("a" (jungseong-e	. (1 4)) 	(jongseong-rieul	. (3 5)))
- ("f" (jungseong-yae    . (1 4)))
- ("x" (jungseong-ye	. 1) 		(jongseong-digeud  	. 1))
- ;; jongseong, exceptionally needs shift key
- ("N" (jongseong-jieuj	. (1 4)))
- ;;((1 . AC08) (jongseong-jieuj	. (1 4)))
- ("V" (jongseong-chieuch	. 1))
- ;;((1 . AB09) (jongseong-chieuch	. 1))
- ("W" (jongseong-kieuk	. 1))
- ;;((1 . AB08) (jongseong-kieuk	. 1))
- )
-
 ;; The following definitions of 3-beol variants [final, 390, no-shift]
 ;; are based on the US keyboard layout.  A user of a different layout
 ;; (such as dvorak, Japanese) may want to write their own definition
 ;; in ~/.uim.
+
+(byeoru-define-layout byeoru-layout-New3onDvorak
+ ;; Unshifted keys
+ ;; choseong
+ ("t" (choseong-giyeog  . (3 5)))
+ ("c" (choseong-nieun   . 1)            (jungseong-o            . 3))
+ ("g" (choseong-digeud  . (3 5)))
+ ("r" (choseong-rieul   . 1)            (jungseong-u            . 3))
+ ("d" (choseong-mieum   . 1)            (jungseong-ya           . 1))
+ ("s" (choseong-bieub   . (3 5)))
+ ("m" (choseong-sios    . (3 5)))
+ ("h" (choseong-ieung   . 1)            (jungseong-eu           . 3))
+ ("n" (choseong-jieuj   . (3 5)))
+ ("v" (choseong-chieuch . 1))
+ ("w" (choseong-kieuk   . 1))
+ ("l" (choseong-tieut   . 1))
+ ("z" (choseong-pieup   . 1))
+ ("b" (choseong-hieuh   . 1)            (jungseong-yu           . 1))
+ ;; jungseong
+ ("u" (jungseong-a      . (1 4))        (jongseong-giyeog       . (3 4 5)))
+ ("p" (jungseong-eo     . (1 4))        (jongseong-mieum        . (3 4 5)))
+ ("j" (jungseong-yo     . 1)            (jongseong-tieut        . (1 4)))
+ ("k" (jungseong-o      . 1)            (jongseong-hieuh        . (1 4)))
+ ("q" (jungseong-yeo    . 1)            (jongseong-pieup        . (1 4)))
+ ("i" (jungseong-u      . 1)            (jongseong-sios     . (3 4 5)))
+ ("o" (jungseong-eu     . 1)            (jongseong-nieun        . (3 5)))
+ ("e" (jungseong-i      . (1 4))        (jongseong-ieung        . (3 5)))
+ ;; jungseong-complex
+ ("y" (jungseong-ae     . (1 4))        (jongseong-bieub        . (3 4 5)))
+ ("a" (jungseong-e      . (1 4))        (jongseong-rieul        . (3 5)))
+ ("f" (jungseong-yae    . (1 4)))
+ ("x" (jungseong-ye     . 1)            (jongseong-digeud       . 1))
+ ;; exceptionally those need shift key
+ ;; jongseong
+ ("N" (jongseong-jieuj  . (1 4)))
+ ("V" (jongseong-chieuch        . 1))
+ ("W" (jongseong-kieuk  . 1))
+ )
+
 (byeoru-define-layout byeoru-layout-strict3final
  ((0 . TLDE) . "*")
  ((0 . AE01) (jongseong-hieuh       . 1))
