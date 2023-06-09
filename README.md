@@ -13,9 +13,19 @@
 
 ## 사용법 - uim, uim-byeoru
 
-1. `uim` 과 `uim-byeoru` 를 설치한다.
-2. `byeoru.scm` 과 `byeoru-custom.scm` 두 파일을 `/usr/share/uim` 으로 복사한다.
-3. uim 메뉴에서 New3onDvorak를 선택할 수 있다.
+1. `uim`를 설치한다. (`uim-byeoru`가 함께 설치된다.)
+```shell
+yay -S uim
+```
+3. `byeoru.scm` 과 `byeoru-custom.scm` 두 파일을 `/usr/share/uim` 으로 복사한다.
+4. 다음을 `.xinitrc` 또는 `.xprofile`에 추가한다.
+```shell
+export GTK_IM_MODULE=uim
+export QT_IM_MODULE=uim
+export XMODIFIERS=@im=uim
+uim-xim &
+```
+6. uim 메뉴에서 New3onDvorak를 선택할 수 있다.
 
 
 
@@ -47,6 +57,11 @@ https://kldp.org/node/160815
 
 https://kldp.org/node/161067
 
+https://wiki.archlinux.org/title/Uim
+
+https://github.com/uim/uim/wiki
+
+https://en.wikibooks.org/wiki/Uim
 
 
 ## License
