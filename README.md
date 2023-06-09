@@ -34,7 +34,7 @@
 
  ## 수정한 부분 - uim, uim-byeoru
 
-- byeoru.scm: line # 390-482 추가
+- byeoru.scm: line # 386-422 추가
 - byeoru-custom.scm: line # 43-46 추가
 
 > 깃허브 사용법을 익히면 fork와 branch를 이용하겠음.
