@@ -407,7 +407,7 @@
  ;; jungseong
  ("u" (jungseong-a	. (1 4))	(jongseong-giyeog	. (3 4 5)))
  ;; ("q" (jungseong-ya	. 1))
- ("p" (jungseong-eo	. (1 4))	(jongseong-mieum	. 1))
+ ("p" (jungseong-eo	. (1 4))	(jongseong-mieum	. (3 4 5)))
  ("j" (jungseong-yo	. 1) 		(jongseong-tieut	. (1 4)))
  ("k" (jungseong-o	. 1)		(jongseong-hieuh	. (1 4)))
  ("q" (jungseong-yeo	. 1) 		(jongseong-pieup	. (1 4)))
