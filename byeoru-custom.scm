@@ -41,9 +41,9 @@
 (define byeoru-layout-alist
   (list
    (list 'byeoru-layout-New3onDvorak
-	 #f				; New3onDvorak compat can not be orderless.
-	 (N_ "Hangul New3onDvorak")
-	 (N_ "Hangul New3onDvorak keyboard that is compatable with Dvorak"))
+     #f                             ; New3onDvorak compat can not be orderless.
+     (N_ "Hangul New3onDvorak")
+     (N_ "Hangul New3onDvorak keyboard that is compatable with Dvorak"))
    (list 'byeoru-layout-hangul2
 	 #f				; 2-beol can not be orderless.
 	 (N_ "Hangul 2-beol Windows")
