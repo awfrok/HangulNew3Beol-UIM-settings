@@ -32,9 +32,9 @@ uim-xim &
 
 
 
-## 사용법 - 날개셋입력기
-
-1. 설정파일을 부른 후, 빠른설정에서 신세벌식을 고른다. (자음 연타와 복모음을 설정한다.)
+## 사용법 - MS Windows 
+- 날개셋입력기와 그 설정파일을 이용한다.
+- [https://github.com/awfrok/New3BeolNGSsettings](https://github.com/awfrok/New3BeolNGSsettings)
 
 
 
