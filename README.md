@@ -11,7 +11,7 @@
 
 ![KeyboardLayout_HangulNew3onDvorak_v0.3.3.jpg](https://github.com/awfrok/HangulNew3onDvorak/raw/master/KeyboardLayout_HangulNew3onDvorak_v0.3.3.jpg?raw=true)
 
-##사용법 - uim, uim-byeoru
+## 사용법 - uim, uim-byeoru
 
 1. `Ubuntu`라면 `uim`과 `uim-byeoru`를 설치한다. `Arch`라면 `uim`을 설치하면 `uim-byeoru`가 함께 설치된다.
 ```shell
