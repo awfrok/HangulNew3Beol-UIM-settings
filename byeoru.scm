@@ -402,11 +402,11 @@
  ("b" (choseong-hieuh   . 1)            (jungseong-yu           . 1))
  ;; jungseong
  ("u" (jungseong-a      . (1 4))        (jongseong-giyeog       . (3 4 5)))
- ("p" (jungseong-eo     . (1 4))        (jongseong-mieum        . (3 4 5)))
+ ("p" (jungseong-eo     . (1 4))        (jongseong-mieum        . (1 4 5)))
  ("j" (jungseong-yo     . 1)            (jongseong-tieut        . (1 4)))
  ("k" (jungseong-o      . 1)            (jongseong-hieuh        . (1 4)))
  ("q" (jungseong-yeo    . 1)            (jongseong-pieup        . (1 4)))
- ("i" (jungseong-u      . 1)            (jongseong-sios     . (3 4 5)))
+ ("i" (jungseong-u      . 1)            (jongseong-sios         . (3 4 5)))
  ("o" (jungseong-eu     . 1)            (jongseong-nieun        . (3 5)))
  ("e" (jungseong-i      . (1 4))        (jongseong-ieung        . (3 5)))
  ;; jungseong-complex
