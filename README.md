@@ -5,11 +5,10 @@
  ## 설명
 
 - 필자가 개발해서 사용하는 한글 글쇠배열을 우분투20.04, 민트20.1, 아치에서 사용하려고 uim-byeoru 스크립트를 수정함. 
-- 윈도우용 날개셋 입력기 설정파일을 추가함.
 
 > https://github.com/awfrok/HangulNew3onDvorak
 
-![](https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3onDvorak_0.3.3.jpg?raw=true)
+![]([https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3onDvorak_0.3.3.jpg?raw=true](https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3BeolOnDvorak.jpg))
 
 ## 사용법 - uim, uim-byeoru
 
