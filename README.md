@@ -8,7 +8,8 @@
 
 > https://github.com/awfrok/HangulNew3onDvorak
 
-![]([https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3onDvorak_0.3.3.jpg?raw=true](https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3BeolOnDvorak.jpg))
+![](https://github.com/awfrok/HangulNew3BeolOnDvorak/blob/master/HangulNew3BeolOnDvorak.jpg?raw=true)
+
 
 ## 사용법 - uim, uim-byeoru
 
